@@ -24,7 +24,10 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     public void GameOver()
     {
-        gameOverCanvas.SetActive(true);
+        GameObject goc = Instantiate(gameOverCanvas);
+
+        Debug.Log("Game over dawg");
+        goc.SetActive(true);
         Time.timeScale = 0;
         
     }
