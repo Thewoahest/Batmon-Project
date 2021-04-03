@@ -6,7 +6,7 @@ public class Spawner : MonoBehaviour
 {
     public float maxTime = 1;
     private float timer = 0;
-    public GameObject Collectable;
+    public GameObject[] Collectibles;
     public float height;
     public float timetolive = 5;
     public GameObject topboundary;
@@ -15,26 +15,15 @@ public class Spawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameObject newCollectable = Instantiate(Collectable);
-        float topy= topboundary.transform.position.y;
-        float boty= botboundary.transform.position.y;
-        if(height > topy)
-        {
-            height = topy;
-        }
-        else if (height < boty)
-        {
-            height = boty;
-        }
-        newCollectable.transform.position = transform.position + new Vector3(0, Random.Range(-height,height),0);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (timer > maxTime) 
+        if (timer > maxTime && Collectibles.Length > 0)
         {
-            GameObject newCollectable = Instantiate(Collectable);
+            GameObject newCollectible = Instantiate(Collectibles[Random.Range(0, Collectibles.Length)]);
             float topy= topboundary.transform.position.y;
             float boty= botboundary.transform.position.y;
             if(height > topy)
@@ -45,9 +34,9 @@ public class Spawner : MonoBehaviour
             {
                 height = boty;
             }
-            newCollectable.transform.position = transform.position + new Vector3(0, Random.Range(-height,height),0);
+            newCollectible.transform.position = transform.position + new Vector3(0, Random.Range(-height,height),0);
 
-            Destroy(newCollectable, timetolive);
+            Destroy(newCollectible, timetolive);
             timer = 0;
         }
         timer += Time.deltaTime;

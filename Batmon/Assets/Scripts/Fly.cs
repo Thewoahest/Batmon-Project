@@ -7,6 +7,7 @@ public class Fly : MonoBehaviour
     public GameManager gameManager;
     public float velocity = 1;
     private Rigidbody2D rb;
+    public double energyCost = -0.5;
 
     void Start()
     {
@@ -19,18 +20,19 @@ public class Fly : MonoBehaviour
         if (Input.GetKeyDown("space"))
         {
             rb.velocity = Vector2.up * velocity;
+            gameManager.setPoints(energyCost);
         }
     }
     void OnCollisionEnter2D(Collision2D collision)
     {   
-        if (collision.gameObject.tag == "Orange")
+        if (collision.gameObject.tag == "Collectible")
         {
-            Destroy(collision.gameObject);
-            gameManager.addPoints(10);
+            CollectItem itemInfo = collision.gameObject.GetComponent<CollectItem>();
+            gameManager.setPoints(itemInfo.GetPoints());
         }
         else if (collision.gameObject.tag == "Boundary")
         {
-            gameManager.GameOver();
+            gameManager.setGameState("Game Over");
         }
         else
         {
