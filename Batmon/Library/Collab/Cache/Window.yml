@@ -1,0 +1,288 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/2D Pixel art pack - Rousette.meta
+    - Assets/2D Pixel art pack - Rousette/Art.meta
+    - Assets/2D Pixel art pack - Rousette/Art/bat.anim
+    - Assets/2D Pixel art pack - Rousette/Art/bat.anim.meta
+    - Assets/2D Pixel art pack - Rousette/Art/fruit.anim
+    - Assets/2D Pixel art pack - Rousette/Art/fruit.anim.meta
+    - Assets/2D Pixel art pack - Rousette/Art/orange.anim
+    - Assets/2D Pixel art pack - Rousette/Art/orange.anim.meta
+    - Assets/2D Pixel art pack - Rousette/Art/rousette1.png
+    - Assets/2D Pixel art pack - Rousette/Art/rousette1.png.meta
+    - Assets/2D Pixel art pack - Rousette/Art/rousette2.png
+    - Assets/2D Pixel art pack - Rousette/Art/rousette2.png.meta
+    - Assets/2D Pixel art pack - Rousette/Art/rousette2_0.controller
+    - Assets/2D Pixel art pack - Rousette/Art/rousette2_0.controller.meta
+    - Assets/2D Pixel art pack - Rousette/Art/rousette2_16.controller
+    - Assets/2D Pixel art pack - Rousette/Art/rousette2_16.controller.meta
+    - Assets/2D Pixel art pack - Rousette/Art/rousette2_17.controller
+    - Assets/2D Pixel art pack - Rousette/Art/rousette2_17.controller.meta
+    - Assets/2D Pixel art pack - Rousette/Art/rousette2_18.controller
+    - Assets/2D Pixel art pack - Rousette/Art/rousette2_18.controller.meta
+    - Assets/2D Pixel art pack - Rousette/Art/rousette2_19.controller
+    - Assets/2D Pixel art pack - Rousette/Art/rousette2_19.controller.meta
+    - Assets/2D Pixel art pack - Rousette/Art/thebat.anim
+    - Assets/2D Pixel art pack - Rousette/Art/thebat.anim.meta
+    - Assets/2D Pixel art pack - Rousette/BGrousette2160x1080.png
+    - Assets/2D Pixel art pack - Rousette/BGrousette2160x1080.png.meta
+    - Assets/Animations.meta
+    - Assets/Animations/banana.anim
+    - Assets/Animations/banana.anim.meta
+    - Assets/Animations/banana_controller.controller
+    - Assets/Animations/banana_controller.controller.meta
+    - Assets/Animations/bat_controller.controller
+    - Assets/Animations/bat_controller.controller.meta
+    - Assets/Animations/bat_drop.anim
+    - Assets/Animations/bat_drop.anim.meta
+    - Assets/Animations/bat_fly.anim
+    - Assets/Animations/bat_fly.anim.meta
+    - Assets/Animations/bat_hang.anim
+    - Assets/Animations/bat_hang.anim.meta
+    - Assets/Animations/dfruit.anim
+    - Assets/Animations/dfruit.anim.meta
+    - Assets/Animations/dfruit_controller.controller
+    - Assets/Animations/dfruit_controller.controller.meta
+    - Assets/Animations/orange.anim
+    - Assets/Animations/orange.anim.meta
+    - Assets/Animations/orange_controller.controller
+    - Assets/Animations/orange_controller.controller.meta
+    - Assets/Art.meta
+    - Assets/Art/bats_n_fruits.png
+    - Assets/Art/bats_n_fruits.png.meta
+    - Assets/Editor.meta
+    - Assets/Editor/com.unity.mobile.notifications.meta
+    - Assets/Editor/com.unity.mobile.notifications/NotificationSettings.asset
+    - Assets/Editor/com.unity.mobile.notifications/NotificationSettings.asset.meta
+    - Assets/Orange_obj.prefab
+    - Assets/Orange_obj.prefab.meta
+    - Assets/Orangespawner.prefab
+    - Assets/Orangespawner.prefab.meta
+    - Assets/Pixel Fantasy Caves.meta
+    - Assets/Pixel Fantasy Caves/Scenes.meta
+    - Assets/Pixel Fantasy Caves/Scenes/Demo.unity
+    - Assets/Pixel Fantasy Caves/Scenes/Demo.unity.meta
+    - Assets/Pixel Fantasy Caves/Sliced.meta
+    - Assets/Pixel Fantasy Caves/Sliced/mainlev_build.png
+    - Assets/Pixel Fantasy Caves/Sliced/mainlev_build.png.meta
+    - Assets/Pixel Fantasy Caves/Sliced/props2.png
+    - Assets/Pixel Fantasy Caves/Sliced/props2.png.meta
+    - Assets/Pixel Fantasy Caves/background1.png
+    - Assets/Pixel Fantasy Caves/background1.png.meta
+    - Assets/Pixel Fantasy Caves/background2.png
+    - Assets/Pixel Fantasy Caves/background2.png.meta
+    - Assets/Pixel Fantasy Caves/background3.png
+    - Assets/Pixel Fantasy Caves/background3.png.meta
+    - Assets/Pixel Fantasy Caves/background4a.png
+    - Assets/Pixel Fantasy Caves/background4a.png.meta
+    - Assets/Pixel Fantasy Caves/background4b.png
+    - Assets/Pixel Fantasy Caves/background4b.png.meta
+    - Assets/Pixel Fantasy Caves/mainlev_build.png
+    - Assets/Pixel Fantasy Caves/mainlev_build.png.meta
+    - Assets/Pixel Fantasy Caves/props1.png
+    - Assets/Pixel Fantasy Caves/props1.png.meta
+    - Assets/Pixel Fantasy Caves/props2.png
+    - Assets/Pixel Fantasy Caves/props2.png.meta
+    - Assets/Prefabs.meta
+    - Assets/Prefabs/Canvas_Menu.prefab
+    - Assets/Prefabs/Canvas_Menu.prefab.meta
+    - Assets/Prefabs/Canvas_Score.prefab
+    - Assets/Prefabs/Canvas_Score.prefab.meta
+    - Assets/Prefabs/GameManager.prefab
+    - Assets/Prefabs/GameManager.prefab.meta
+    - Assets/Prefabs/Obj_Banana.prefab
+    - Assets/Prefabs/Obj_Banana.prefab.meta
+    - Assets/Prefabs/Obj_DFruit.prefab
+    - Assets/Prefabs/Obj_DFruit.prefab.meta
+    - Assets/Prefabs/Obj_Orange.prefab
+    - Assets/Prefabs/Obj_Orange.prefab.meta
+    - Assets/Prefabs/Spawner.prefab
+    - Assets/Prefabs/Spawner.prefab.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/Bat.unity
+    - Assets/Scenes/Bat.unity.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/Bat.cs
+    - Assets/Scripts/Bat.cs.meta
+    - Assets/Scripts/CameraFollow.cs
+    - Assets/Scripts/CameraFollow.cs.meta
+    - Assets/Scripts/CollectItem.cs
+    - Assets/Scripts/CollectItem.cs.meta
+    - Assets/Scripts/Fly.cs
+    - Assets/Scripts/Fly.cs.meta
+    - Assets/Scripts/GameManager.cs
+    - Assets/Scripts/GameManager.cs.meta
+    - Assets/Scripts/Scroll.cs
+    - Assets/Scripts/Scroll.cs.meta
+    - Assets/Scripts/Spawner.cs
+    - Assets/Scripts/Spawner.cs.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Assets/bat.anim
+    - Assets/bat.anim.meta
+    - Assets/rousette2_16.controller
+    - Assets/rousette2_16.controller.meta
+    - Assets/z.Import.meta
+    - Assets/z.Import/Animations.meta
+    - Assets/z.Import/Animations/bat.anim
+    - Assets/z.Import/Animations/bat.anim.meta
+    - Assets/z.Import/Animations/fruit.anim
+    - Assets/z.Import/Animations/fruit.anim.meta
+    - Assets/z.Import/Animations/orange.anim
+    - Assets/z.Import/Animations/orange.anim.meta
+    - Assets/z.Import/Animations/rousette2_0.controller
+    - Assets/z.Import/Animations/rousette2_0.controller.meta
+    - Assets/z.Import/Animations/rousette2_16.controller
+    - Assets/z.Import/Animations/rousette2_16.controller.meta
+    - Assets/z.Import/Animations/rousette2_17.controller
+    - Assets/z.Import/Animations/rousette2_17.controller.meta
+    - Assets/z.Import/Animations/rousette2_18.controller
+    - Assets/z.Import/Animations/rousette2_18.controller.meta
+    - Assets/z.Import/Animations/rousette2_19.controller
+    - Assets/z.Import/Animations/rousette2_19.controller.meta
+    - Assets/z.Import/Animations/thebat.anim
+    - Assets/z.Import/Animations/thebat.anim.meta
+    - Assets/z.Import/Art.meta
+    - Assets/z.Import/Art/BGrousette2160x1080.png
+    - Assets/z.Import/Art/BGrousette2160x1080.png.meta
+    - Assets/z.Import/Art/Sliced.meta
+    - Assets/z.Import/Art/Sliced/mainlev_build.png
+    - Assets/z.Import/Art/Sliced/mainlev_build.png.meta
+    - Assets/z.Import/Art/Sliced/props2.png
+    - Assets/z.Import/Art/Sliced/props2.png.meta
+    - Assets/z.Import/Art/background1.png
+    - Assets/z.Import/Art/background1.png.meta
+    - Assets/z.Import/Art/background2.png
+    - Assets/z.Import/Art/background2.png.meta
+    - Assets/z.Import/Art/background3.png
+    - Assets/z.Import/Art/background3.png.meta
+    - Assets/z.Import/Art/background4a.png
+    - Assets/z.Import/Art/background4a.png.meta
+    - Assets/z.Import/Art/background4b.png
+    - Assets/z.Import/Art/background4b.png.meta
+    - Assets/z.Import/Art/mainlev_build.png
+    - Assets/z.Import/Art/mainlev_build.png.meta
+    - Assets/z.Import/Art/props1.png
+    - Assets/z.Import/Art/props1.png.meta
+    - Assets/z.Import/Art/props2.png
+    - Assets/z.Import/Art/props2.png.meta
+    - Assets/z.Import/Art/rousette1.png
+    - Assets/z.Import/Art/rousette1.png.meta
+    - Assets/z.Import/Scenes.meta
+    - Assets/z.Import/Scenes/Demo.unity
+    - Assets/z.Import/Scenes/Demo.unity.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 1
